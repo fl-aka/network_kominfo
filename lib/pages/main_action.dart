@@ -122,11 +122,11 @@ class _MainActionState extends State<MainAction> {
     final tinggi = MediaQuery.of(context).size.height;
 
     if (_toSetting) {
-      WidgetsBinding.instance!.addPostFrameCallback((_) => pindahPage(context));
+      WidgetsBinding.instance.addPostFrameCallback((_) => pindahPage(context));
     }
 
     if (_logOut) {
-      WidgetsBinding.instance!.addPostFrameCallback((_) => pindahPage(context));
+      WidgetsBinding.instance.addPostFrameCallback((_) => pindahPage(context));
     }
 
     return WillPopScope(

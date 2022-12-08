@@ -26,11 +26,11 @@ class _DashPetugasState extends State<DashPetugas> {
     double lebarA = _exp ? 60 : 0;
     double tinggi = MediaQuery.of(context).size.height;
     if (_toSetting) {
-      WidgetsBinding.instance!.addPostFrameCallback((_) => pindahPage(context));
+      WidgetsBinding.instance.addPostFrameCallback((_) => pindahPage(context));
     }
 
     if (_logOut) {
-      WidgetsBinding.instance!.addPostFrameCallback((_) => pindahPage(context));
+      WidgetsBinding.instance.addPostFrameCallback((_) => pindahPage(context));
     }
     return WillPopScope(
       onWillPop: _onBackPressed,
